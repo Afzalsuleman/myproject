@@ -10,17 +10,17 @@ import { Col, Row } from 'react-bootstrap';
 function DefaultLayout() {
   return (
     <Layout className='mai-dashboard'>
-    <Row>
-    <Col md={2} sm={12}>
-        <SideSlider/>
-    </Col>
-    <Col md={10} sm={12}>
-        <Layout>
-            <Header />
-                <Component/>
-                <Footer/>
-            </Layout>
-    </Col>
+    <Row className='innerow'>
+        <Col md={2} sm={12}>
+            <SideSlider/>
+        </Col>
+        <Col md={10} sm={12} >
+            <Layout className='right'>
+                    <Header />
+                    <Component/>
+                    <Footer/>
+                </Layout>
+        </Col>
     </Row>  
     </Layout>
   )

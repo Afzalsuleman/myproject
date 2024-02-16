@@ -1,13 +1,14 @@
 .Header{
-    height: 2.5rem;
+    height: 6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4px;
+    // padding: 4px;
     // border-bottom: 1px solid rgb(0,0,0,0.15 );
-    // padding: 0;
-    background: #F3F6FD;
-    border-bottom: none;
+    // margin-top: 2rem;
+    margin: 2rem;
+    background: blue;
+    border-radius: 14px;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     position: sticky;

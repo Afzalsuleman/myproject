@@ -3,5 +3,16 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-color: #F3F6FD;
+    background-color: #c9d5ef;
+    .innerow{
+        width: 100%;
+        height: 100%;
+       
+    }
+    .right{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        background-color: #c9d5ef;
+    }
 }
