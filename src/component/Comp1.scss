@@ -1,0 +1,33 @@
+.comp1{
+    width: 100%;
+    height: 463px;
+    background-image: linear-gradient(to right,#2b6b96 40%,#2b6b96 40%, transparent,transparent ), url("../src/Assets/comp1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1{
+        min-width: 601px;
+        min-height: 141px;
+        margin-top: 112px;
+        margin-left: 179px;
+        font-family: "Cardo", serif; // Assuming "Cardo" is available as a web font
+        font-size: 6rem;
+        font-weight: normal;
+        line-height: 68px;
+        letter-spacing: normal;
+        text-align: left;
+        
+        
+    }
+    p{
+        // width: 638px;
+        // height: 99px;
+        // margin-top: 2px;
+        margin-left: 179px;
+        font-family: "Cardo", serif;
+        font-size: 22px; // Equivalent to text-base
+        font-weight: 400px; // Equivalent to font-normal
+        line-height: 26px; // Equivalent to leading-26
+        letter-spacing: normal; // Equivalent to tracking-normal
+        text-align: left; // Equivalent to text-left
+    }
+   }
