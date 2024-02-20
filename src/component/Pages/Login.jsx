@@ -4,13 +4,17 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import logo from "../assets/logo 1.png";
 import "./Login.scss";
 import { BiUserCircle, BiLock } from "react-icons/bi";
+import { useNavigate } from 'react-router-dom'
 import { AiOutlineEyeInvisible, AiOutlineEye } from "react-icons/ai";
+import { Link } from "react-router-dom";
 function Login() {
   const [visiblePassword, setVisiblePassword] = useState(false);
   const handleToggleEye = (e, val) => {
     setVisiblePassword(val);
   };
+  const navigate=useNavigate()
   return (
+    
     <div className="abcon min-vh-100  d-flex flex-row">
       <Container fluid>
         <Row className="min-vh-100">
@@ -71,14 +75,11 @@ function Login() {
                       <input type="checkbox" name="rememberMe" />
                       Remember me
                     </div>
-                    <Button variant="primary" type="submit" className="but">
+                    <Button onClick={() =>{
+        navigate("/dsj")
+    }} variant="primary"  className="but">
                       Sign In
                     </Button>
-                    <a href="https://api.dev.korporate.hexaview.in/users/login/sso">
-                      {/* <Button variant="primary">
-                                       Sign In with SSO
-                                    </Button> */}
-                    </a>
                     <div className="forgotPassword mt-2">Forgot Password?</div>
                 </form>
               </div>
