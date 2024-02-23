@@ -32,6 +32,7 @@ function Ai() {
   return (
     <div className='comp'>
       <PlusCircleFilled style={{ fontSize: '24px' }} onClick={handleClick}/>
+      <h2>Add User</h2>
       <Modal
   title="Edit Record"
   visible={isModalVisible}
